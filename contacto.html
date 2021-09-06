@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="cervecería, lupulo, hamburguesas">
+    <meta name="descripción" content="Cevecería y Hamburgueseria contactenos">
+
+    <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+        <!-- nuestro CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="stylesheet" href="./css/nav.css">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        </style>
+</head>
+<body class="background">
+    <title>PARDO Brewing Bros.</title>
+    <body class="background">
+        <title>PARDO Brewing Bros.</title>
+        <header>
+            <div>
+                <img src="./images/pardo_l_header.png" class="header__menu__logo"/>
+                <nav class="header__menu">
+                    <ul>
+                        <li><a href="index.html" class="header__menu__links header__menu__links">Inicio</a></li>
+                        <li><a href="cervezas.html" class="header__menu__links">Cervezas</a></li>
+                        <li><a href="menu.html" class="header__menu__links">Menú</a></li>
+                        <li><a href="nosotros.html" class="header__menu__links">Nosotros</a></li>
+                        <li><a href="contacto.html" class="header__menu__links header__menu__links--activo">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    <main class="c_text">
+    <!--Formularios-->
+    <h2>Formulario Contacto</h2>
+    <br><br>
+    <form action="contacto.html" method="">
+        <label for="name">Nombre</label>
+            <input type="text" required  name="Nombre" placeholder="Escribe tu Nombre">
+            <br><br>
+
+        <label for="Edad">Edad</label>
+            <input type="number" name="edad" placeholder="Escribe tu Edad">
+            <br><br>
+
+        <label for="pass">Contraseña</label>
+            <input type="password"  name="contraseña">
+            <br><br>
+
+            <textarea name="Deje un comentario" cols="30" rows="10"></textarea>
+            <br><br>
+            
+        <label for="nacionalidad">Nacionalidad</label>
+
+            <select name="nacionalidad">
+                <option value="argentina">Argentina</option>
+                <option value="brasil">Brasil</option>
+                <option value="uruguay">Uruguay</option>
+            </select>
+            <br><br>
+            <p>Preferencias</p>
+            <label><input type="radio"  name="preferencias" value="tomar una birra">Tomar una birra</label>
+            <label><input type="radio"  name="preferencias" value="no gracias, no tomo">No gracias, no tomo</label>
+            <label><input type="radio"  name="preferencias" value="tomarme todo lo que puedo">Tomarme todo lo que puedo</label>
+            <br><br>
+            <p>Cervezas de Preferencia</p>
+            <label><input type="checkbox"  name="preferencias" value="apa">APA</label>
+            <label><input type="checkbox"  name="preferencias" value="ipa">IPA</label>
+            <label><input type="checkbox"  name="preferencias" value="negra">STOUT</label>
+    </form>
+    <button type="submit">Dame una Birra!</button>
+    <input type="button" value="Enviar Consulta">
+    </main>
+    <footer>
+        <a href="https://www.instagram.com/cervezapardo/?hl=es-la" target="_blank"><img src="./images/ig_logo.png" alt="Instagram Pardo" style="width:42px;height:42px;"></a>
+        <a href="https://www.facebook.com/cervezapardo" target="_blank"><img src="./images/fb_logo.png" alt="Facebook Pardo" style="width:42px;height:42px;"></a>
+</footer>
+</body>
+</html>

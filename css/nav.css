@@ -1,0 +1,153 @@
+/*Menu*/
+.nav_bar {
+  margin:auto;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+ul, ol {
+  list-style:none;
+}
+
+.nav > li {
+  width: auto;
+  float:left;
+}
+
+nav > ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav li a {
+  background-color:rgba(0, 0, 0, 0.911);
+  color:rgb(255, 176, 30);
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+}
+
+.nav li a:hover {
+  background-color:#444444;
+}
+
+.nav li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;
+}
+
+.nav li:hover > ul {
+  display:block;
+}
+
+.nav li ul li {
+  position:relative;
+}
+
+.nav li ul li ul {
+  right:-140px;
+  top:0px;
+}
+
+/*Cervezas*/
+.p_flex_1 {
+  display: flex;
+  /*flex-direction: row;*/
+  /*flex-wrap: wrap;*/
+  background-color: none;
+  justify-content: center;
+}
+
+.p_flex_2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*flex-flow: row wrap;*/
+  justify-content: flex-start;
+  /*align-items: center;*/
+  align-content: flex-start;
+}
+
+.h_flex1 {
+  order: 0;
+  flex-basis: 250px;
+  /*flex-grow: 1;*/
+  /*flex-shrink: 1;*/
+  flex: 1;
+}
+
+.h_flex2 {
+  order: 1;
+  flex-basis: 250px;
+  /*flex-grow: 0;*/
+  /*flex-shrink: 2;*/
+  flex: 2;
+}
+
+.h_flex3 {
+  order: 2;
+  flex-basis: 250px;
+  /*flex-grow: 1;*/
+  /*flex-shrink: 0;*/
+  flex: 1;
+}
+
+aside {
+  color: #FFFFFF;
+  background-color: none;
+  border: salmon;
+  padding: 5px;
+  width: 100%;
+  max-width: 520px;
+  margin-left: 20px;
+
+}
+
+article {
+  background-color:none;
+  border: solid rgb(255, 174, 0);
+  width: 720px;
+  max-width: 1920px;
+  height: auto;
+  align-content: flex-end;
+}
+
+.imagen1 {
+  background-image: url("../images/despachatada_neipa.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 240px;
+  /*height: 240px;*/
+  margin: 5px;
+  flex-grow: 1;
+}
+
+.imagen2 {
+  background-image: url("../images/vienna_lager.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 240px;
+  /*height: 240px;*/
+  margin: 5px;
+  flex-grow: 1;
+}
+
+.imagen3 {
+  background-image: url("../images/roto_1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 240px;
+  height: 240px;
+  margin: 5px;
+  flex-grow: 1;
+}

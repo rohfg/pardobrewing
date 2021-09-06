@@ -1,0 +1,603 @@
+/* Propiedades Titulo */
+.header {
+    letter-spacing: 30px;
+    font-size: 50px;
+    text-align: center;
+    background-color: bisque;
+    color: darkcyan;
+    text-shadow: black;
+}
+
+/*Logo*/
+
+/*.header_image {
+    background-image: url(../images/pardo_l_header.png);
+    height: 150px;
+    width: 240px;
+    background-position: left;
+    background-size: cover;
+    /*display: flex;
+    flex-wrap: wrap;
+}*/
+
+img{
+    width: 240px;
+    height: auto;
+}
+.header_container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 25% 1fr 75% 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+/*MAIN*/
+.main_img {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+    justify-self: center;
+}
+
+/*Menu*/
+.nav_bar {
+    margin:auto;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    width: auto;
+    float:left;
+}
+
+nav > ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav li a {
+    background-color:rgba(0, 0, 0, 0.911);
+    color:rgb(255, 176, 30);
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#444444;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+/*Footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    text-align: center center;
+    border-top: 0.5px solid rgb(46, 46, 46);
+    padding: 0px 20px 0px 20px;
+    padding-right: 15px;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+
+.social_media {
+    align-content: center;
+    justify-content: center;
+}
+
+.social_media > a {
+    padding-top: 10px;
+
+}
+
+.copyright {
+    text-align: right
+}
+
+.copyright p {
+	margin: 0;
+	color: #b3b3b3;
+	font-size: 11px;
+}
+
+
+
+/*
+input {
+
+}
+input:focus {
+
+}
+*/
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+
+#logo-img {
+    background-image: url("../images/banner_v2.jpg");
+    margin: 20px 0;
+    vertical-align: middle;
+    max-height: 250px;
+}
+
+/*Background site*/
+.background {
+    background-image: linear-gradient(#000000, #201800, #000000);
+}
+
+/*
+#logo   {
+    background-image:url("../images/logo1.jpg");
+}
+*/
+
+.section_quien {
+    max-width: 720px; float: right;
+	height: auto;
+	padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.section_sign {
+	background-color: none;
+    width: 500px;
+	height: auto;
+	padding: 40px;
+}
+
+.section_q_img {
+	background-color: rgb(0, 0, 0);
+    width: 510px; float: left;
+	height: 505;
+	padding: 0px;
+}
+
+.c_text { 
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+    font-family: sans-serif; 
+    font-size: 14px; 
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 25px;
+    color: cornsilk;
+}
+
+.w_text { 
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif; 
+    font-size: 14px; 
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 35px;
+    color: cornsilk;
+}
+
+.w_text1 { 
+    padding-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder; 
+    font-size: 20px; 
+    color: burlywood;
+}
+
+.w_text2 { 
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bolder; 
+    font-size: 18px; 
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 15px;
+}
+
+.w_text3 { 
+    /*padding-left: 40px;
+    padding-right: 40px;*/
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder; 
+    font-size: 20px; 
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 15px;
+    color: burlywood;
+}
+
+.div1 { 
+    border-top-color: #CC0000;
+    border-right-color: #CCC;
+    border-bottom-color: #00FF00;
+    border-left-color: #CCC;
+}
+
+.tabla {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+/*.form {
+    padding-right: auto;
+}*/
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+label,
+input {
+    /* In order to define widths */
+    display: inline-block;
+}
+
+label {
+    width: 30%;
+    /* Positions the label text beside the input */
+    text-align: right;
+}
+
+label+input {
+    width: 30%;
+    /* Large margin-right to force the next element to the new-line
+             and margin-left to create a gutter between the label and input */
+    margin: 0 30% 0 4%;
+}
+
+
+/* Only the submit button is matched by this selector,
+         but to be sure you could use an id or class for that button */
+
+input+input {
+    float: right;
+}
+
+/*Menu desplegable*/
+
+/*Quitar Margenes y rellenos*/
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box
+    
+}
+
+
+/*Cervezas*/
+.p_flex_1 {
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    background-color: none;
+    justify-content: center;
+}
+
+.p_flex_2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-flow: row wrap;*/
+    justify-content: flex-start;
+    /*align-items: center;*/
+    align-content: flex-start;
+}
+
+.h_flex1 {
+    order: 0;
+    flex-basis: 250px;
+    /*flex-grow: 1;*/
+    /*flex-shrink: 1;*/
+    flex: 1;
+}
+
+.h_flex2 {
+    order: 1;
+    flex-basis: 250px;
+    /*flex-grow: 0;*/
+    /*flex-shrink: 2;*/
+    flex: 2;
+}
+
+.h_flex3 {
+    order: 2;
+    flex-basis: 250px;
+    /*flex-grow: 1;*/
+    /*flex-shrink: 0;*/
+    flex: 1;
+}
+
+aside {
+    color: #FFFFFF;
+    background-color: none;
+    border: salmon;
+    padding: 5px;
+    width: 100%;
+    max-width: 520px;
+    margin-left: 20px;
+
+}
+
+/*article {
+    background-color:none;
+    border: solid rgb(255, 174, 0);
+    width: 720px;
+    max-width: 1920px;
+    height: auto;
+    align-content: flex-end;
+}*/
+
+.carrusel1 {
+    background-color: none;
+    height: auto;
+    width: 1000px;
+    justify-content: center;
+}
+
+.imagen1 {
+    background-image: url("../images/despachatada_neipa.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 240px;
+    /*height: 240px;*/
+    margin: 5px;
+    flex-grow: 1;
+}
+
+.imagen2 {
+    background-image: url("../images/vienna_lager.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 240px;
+    /*height: 240px;*/
+    margin: 5px;
+    flex-grow: 1;
+}
+
+.imagen3 {
+    background-image: url("../images/roto_1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 240px;
+    height: 240px;
+    margin: 5px;
+    flex-grow: 1;
+}
+
+/*Fixed header
+
+/* Style the header */
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+}
+
+  /* Page content */
+.content {
+    padding: 16px;
+}
+
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+}
+
+/* el ID se lo llama con #
+
+/*COMENTARIO EN CSS
+selector 
+    propiedad:valor;
+
+
+    /* ----- ----- SIDEBAR ----- ----- */
+
+.web-sidebar{
+	width: 20%;
+	color: white;
+	background: #0076db;
+	position: fixed;
+	bottom:0px;
+	top: 0px;
+}
+
+.sidebar-logo{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sidebar-logo_img img{
+	max-width: 100%;
+	background: green;
+	padding: 5px;
+}
+
+.web-sidebar div{
+	height: 17.5%;
+}
+
+.sidebar-rest{
+	height: 10%;
+}
+
+/* ----- ----- SIDEBAR ----- ----- */
+
+/*Grids*/
+.main {
+    padding-top: 100px;
+}
+body {
+    margin: 40px;
+    }
+
+    .sidebar {
+    grid-area: sidebar;
+    }
+
+    .content {
+    grid-area: content;
+    }
+
+    .header {
+
+    grid-area: header;
+    }
+
+    .wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 720px 300px 120px;
+    grid-template-areas:
+    "header  header  header" 
+    "sidebar content content";
+    background-color: rgb(0, 0, 0);
+    color: #444;
+    }
+
+    .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    }
+
+    .header {
+    background-color: rgb(0, 0, 0);
+    }
+
+    .overlay {
+    background-color: red;
+    z-index: 10;
+    grid-column: content-start / content-end;
+    grid-row: header-start / content-end;
+    }
+
+    .h3_menu {
+        color:burlywood;
+        font-family: sans-serif;
+    }
+    .grid-food-container {
+        margin-top: 80px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 400px);
+        grid-template-rows: 1fr;
+        row-gap: 10px;
+        column-gap: none;
+        justify-items: center;
+
+    }
+    
+    .flex-food {
+        border: 1px solid #ccc;
+        box-shadow: 0px 0px 3px #ccc, 0px 0px 6px #ccc, 0px 0px 9px #ccc;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: stretch;
+    }
+
+    .flex-food-content {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        gap: 5px;
+    }
+    
+    .flex-food img {
+        width: 100px;
+        object-fit: contain;
+        object-position: center;
+    }
+/*
+    @media only screen and (max-width: 1400px) {
+                .grid-food-container {
+        grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .grid-food-container {
+        grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    @media only screen and (max-width: 760px) {
+        .grid-food-container {
+        grid-template-columns: 1fr;
+        }
+    }
+
